@@ -2,36 +2,11 @@
 <html>
   <head>
     <title>1.1 Bin2Dec</title>
-    <style>
 
-    </style>
+    <link rel='stylesheet' href='challengeStyle.css' />
+    <script async src='helperFunctions.js'></script>
+    <script async src='main.js'></script>
 
-    <script>
-
-      function convertBinToDec(event){
-
-        event.preventDefault();
-
-        let inputValue = document.getElementById('bin2decInput').value;
-        console.log(inputValue);
-
-        let resultEl = document.getElementById('resultSpan');
-        resultEl.innerHTML = '';
-
-        // Notify if anything other than 0 or 1 entered
-        for (let i = 0; i < inputValue.length; i++){
-          thisChar = inputValue.substring(i,i+1);
-          console.log(thisChar);
-          if ( (thisChar !== '0') && (thisChar !== '1') ){
-            console.error('Non-binary character entered!');
-            resultEl.innerHTML = 'Non-binary character entered!';
-            return false;
-          }
-        }
-        console.log('Ended function');
-        return false;
-      }
-    </script>
   </head>
   <body>
     <div class='headerBox'>
@@ -40,6 +15,7 @@
 
       <div class='challengeDescription'>
         <p>This is project 1.1 of the app-ideas challenge, details are available on the <a href='https://github.com/florinpop17/app-ideas/blob/master/Projects/Bin2Dec-App.md'>Bin2Dec challenge page</a></p>
+        <p>My attempt at this project is available in <a href='https://github.com/eclectic-matt/app-ideas'>my main Github repo for the whole challenge</a>, but specifically in <a href='https://github.com/eclectic-matt/app-ideas/tree/master/1.1%20Bin2Dec'>the folder for this particular challenge</a></p>
       </div>
 
       <div class='challengeRequirements'>
@@ -65,7 +41,7 @@
       <h2>Bin2Dec Converter</h2>
 
       <form name='bin2dec' id='bin2decForm' onsubmit='convertBinToDec(event)'>
-        <label for='binInput'>Input your binary number: <input id='bin2decInput' type='text' maxlength='8' placeholder='10001010'></input></label>
+        <label for='binInput'>Input your binary number: <input id='bin2decInput' type='text' maxlength='8' value='10001010'></input></label>
         <input type='submit' id='formSubmitBtn' placeholder='Convert' />
       </form>
       <br>
