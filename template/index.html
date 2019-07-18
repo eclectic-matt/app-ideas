@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>N.N Challenge Title</title>
+
+    <link rel='stylesheet' href='challengeStyle.css' />
+    <script async src='helperFunctions.js'></script>
+    <script async src='main.js'></script>
+
+  </head>
+  <body>
+    <div class='headerBox'>
+
+      <h1>N.N Challenge Title</h1>
+
+      <div class='challengeDescription'>
+        <p>This is project N.N of the app-ideas challenge, details are available on the <a href='https://github.com/florinpop17/app-ideas/blob/master/Projects/Bin2Dec-App.md'>Bin2Dec challenge page</a></p>
+        <p>My attempt at this project is available in <a href='https://github.com/eclectic-matt/app-ideas'>my main Github repo for the whole challenge</a>, but specifically in <a href='https://github.com/eclectic-matt/app-ideas/tree/master/1.1%20Bin2Dec'>the folder for this particular challenge</a></p>
+      </div>
+
+      <div class='challengeRequirements'>
+        <h2>User Stories</h2>
+        <ul>
+          <li>User can enter up to 8 binary digits in one input field</li>
+          <li>User must be notified if anything other than a 0 or 1 was entered</li>
+          <li>User views the results in a single output field containing the decimal (base 10) equivalent of the binary number that was entered</li>
+        </ul>
+        <h2>Bonus features</h2>
+        <ul>
+          <li>User can enter a variable number of binary digits</li>
+        </ul>
+      </div>
+
+      <div class='challengeOverview'>
+        <p>You can read all about the app-ideas challenge and see a list of the individual challenges on the <a href='https://github.com/florinpop17/app-ideas'>main app-ideas repo</a></p>
+      </div>
+
+    </div>
+
+    <div class='resultBox'>
+      <h2>Bin2Dec Converter</h2>
+
+      <form name='bin2dec' id='bin2decForm' onsubmit='convertBinToDec(event)'>
+        <label for='binInput'>Input your binary number: <input id='bin2decInput' type='text' maxlength='8' value='10001010'></input></label>
+        <input type='submit' id='formSubmitBtn' placeholder='Convert' />
+      </form>
+      <br>
+      <div class='resultBox'>
+        <b>Result: <span id='resultSpan'></b>
+      </div>
+
+    </div>
+    <script>
+      /*document.getElementById('formSubmitBtn').addEventListener('click', function(event){
+        event.preventDefault()
+      });*/
+    </script>
+
+  </body>
+</html>
