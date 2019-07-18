@@ -27,8 +27,8 @@ function updateBorderRadius(event){
 
   let cssString = 'border-radius: ' + topLeftValue + 'px ' + topRightValue + 'px ' + btmRightValue + 'px ' + btmLeftValue + 'px; ';
 
-  console.log(cssString);
-  cssString = cssString + cssDefault;
+  //console.log(cssString);
+  cssString = cssDefault + cssString;
 
   let resultsDiv = document.getElementById('border-preview-div');
   resultsDiv.setAttribute('style', cssString);
