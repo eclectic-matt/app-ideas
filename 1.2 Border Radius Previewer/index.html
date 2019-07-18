@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>1.2 Border Radius Previewer</title>
 
+    <link rel='stylesheet' href='challengeStyle.css' />
+    <script async src='helperFunctions.js'></script>
+    <script async src='main.js'></script>
+
+  </head>
+  <body>
+    <div class='headerBox'>
+
+      <h1>1.2 Border Radius Previewer</h1>
+
+      <div class='challengeDescription'>
+        <p>This is project 1.2 of the app-ideas challenge, details are available on the <a href='https://github.com/florinpop17/app-ideas/blob/master/Projects/Border-Radius-Previewer.md'>Border Radius Previewer challenge page</a></p>
+        <p>My attempt at this project is available in <a href='https://github.com/eclectic-matt/app-ideas'>my main Github repo for the whole challenge</a>, but specifically in <a href='https://github.com/eclectic-matt/app-ideas/tree/master/1.2%20Border%20Radius%20Previewer'>the folder for this particular challenge</a></p>
+      </div>
+
+      <div class='challengeRequirements'>
+        <h2>User Stories</h2>
+        <ul>
+          <li>User can see a box which has a border-radius property applied to it</li>
+          <li>User can change the 4 border-radius values that are applied to the box (top-left, top-right, bottom-left, bottom-right)</li>
+          <li>User can copy the resulting CSS to the clipboard</li>
+        </ul>
+        <h2>Bonus features</h2>
+        <ul>
+          <li>User can change all 8 possible values of the border-radius in order to create a complex shape</li>
+        </ul>
+      </div>
+
+      <div class='challengeOverview'>
+        <p>You can read all about the app-ideas challenge and see a list of the individual challenges on the <a href='https://github.com/florinpop17/app-ideas'>main app-ideas repo</a></p>
+      </div>
+
+    </div>
+
+    <div class='resultBox'>
+      <h2>Border Radius Previewer</h2>
+
+      <form name='border-radius-settings' id='border-radius-form'  onsubmit='updateBorderRadius(event)'>
+
+        <label for='top-left-radius-input'>Top Left Corner Radius: <input id='top-left-radius-input' type='number' value='25' max='200' min='0'></input></label>
+        <br>
+        <label for='top-right-radius-input'>Top Right Corner Radius: <input id='top-right-radius-input' type='number' value='25' max='200' min='0'></input></label>
+        <br>
+        <label for='bottom-right-radius-input'>Bottom Right Corner Radius: <input id='bottom-right-radius-input' type='number' value='25' max='200' min='0'></input></label>
+        <br>
+        <label for='bottom-left-radius-input'>Bottom Left Corner Radius: <input id='bottom-left-radius-input' type='number' value='25' max='200' min='0'></input></label>
+        <br>
+        <input type='submit' id='formSubmitBtn' placeholder='Apply Borders' />
+
+      </form>
+      <br>
+      <div class='result-box'>
+        <b>Result: </b><br>
+        <em><span id='result-span'></em>
+        <br>
+        <br>
+        <div id='border-preview-div' style='height: 150px; width: 150px; color:white; background-color: #a0b; border: 1px solid black;'>
+          <b>RESULTS BOX</b>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>
