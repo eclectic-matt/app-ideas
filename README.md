@@ -1,6 +1,8 @@
 # app-ideas
 
-Following the app-ideas Github repo and trying out the challenges in turn. The full challenge details can be found on [Florian's Github Repo](https://github.com/florinpop17/app-ideas)
+Following the app-ideas Github repo and trying out the challenges in turn. 
+
+The full challenge details can be found on [Florian's Github Repo](https://github.com/florinpop17/app-ideas)
 
 ## Current Challenge
 
@@ -9,6 +11,7 @@ The challenge I am currently working on is:
 
 You can see any work in progress in my challenge folder:
 [1.2 My folder for this challenge](https://github.com/eclectic-matt/app-ideas/tree/master/1.2%20Border%20Radius%20Previewer)
+[1.2 My folder for this challenge](./1.2%20Border%20Radius%20Previewer)
 
 ## Challenge List
 
