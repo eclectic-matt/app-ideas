@@ -20,7 +20,7 @@ And see my current project on Github pages:
 |Name|Short Description|Status|Repo|Live Preview|
 |----------|-------------|------|-----|-----|
 |Bin2Dec|Binary-to-Decimal number converter|Completed 18/07/19|[Folder](https://github.com/eclectic-matt/app-ideas/tree/master/1.1%20Bin2Dec)|[Live Link](./1.1%20Bin2Dec)|
-| Border Radius Previewer    | Preview how CSS3 border-radius values affect an element    | Completed 19/07/19 | [1.2 My folder for this challenge](https://github.com/eclectic-matt/app-ideas/tree/master/1.2%20Border%20Radius%20Previewer) |[Live Link](./1.2%20Border%20Radius%20Previewer)|
+| Border Radius Previewer    | Preview how CSS3 border-radius values affect an element    | Completed 19/07/19 | [Folder](https://github.com/eclectic-matt/app-ideas/tree/master/1.2%20Border%20Radius%20Previewer) |[Live Link](./1.2%20Border%20Radius%20Previewer)|
 | Calculator                 | Calculator                                                 |             | Folder ||
 | Christmas Lights           | Simulate a string of Christmas lights                      |             | Folder ||
 | Cause Effect App           | Click list item to display item details                    |             | Folder ||
