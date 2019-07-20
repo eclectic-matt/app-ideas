@@ -4,6 +4,8 @@ Following the app-ideas Github repo and trying out the challenges in turn.
 
 The full challenge details can be found on [Florian's Github Repo](https://github.com/florinpop17/app-ideas)
 
+You can see previews of the challenges on my [Github Pages site](https://eclectic-matt.github.io/app-ideas/)
+
 ## Current Challenge
 
 The challenge I am currently working on is:
