@@ -1,21 +1,25 @@
 # app-ideas
 
-Following the app-ideas Github repo and trying out the challenges in turn. 
+Some basic coding challenges, hacked together by my own fair hands.
+
+## What's it all about?
+
+I'm following the app-ideas Github repo and trying out the challenges in turn. 
 
 The full challenge details can be found on [Florian's Github Repo](https://github.com/florinpop17/app-ideas)
 
-You can see previews of the challenges on my [Github Pages site](https://eclectic-matt.github.io/app-ideas/)
+You can see previews of the challenges I've completed so far on my [Github Pages site](https://eclectic-matt.github.io/app-ideas/)
 
 ## Current Challenge
 
 The challenge I am currently working on is:
 [1.2 Border Radius Previewer - Challenge Details](https://github.com/florinpop17/app-ideas/blob/master/Projects/Border-Radius-Previewer.md)
 
-You can see any work in progress in my challenge folder:
-[1.2 My folder for this challenge](https://github.com/eclectic-matt/app-ideas/tree/master/1.2%20Border%20Radius%20Previewer)
+You can see any work in progress in my challenge repo:
+[1.2 Challenge Repo](https://github.com/eclectic-matt/app-ideas/tree/master/1.2%20Border%20Radius%20Previewer)
 
 And see my current project on Github pages:
-[Live Preview of 1.2 Border Radius Previewer](./1.2%20Border%20Radius%20Previewer)
+[Live Preview of Border Radius Previewer](./1.2%20Border%20Radius%20Previewer)
 
 ## Challenge List
 
